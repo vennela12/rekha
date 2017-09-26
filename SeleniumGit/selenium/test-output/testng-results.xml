@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5991" started-at="2017-09-23T16:21:29Z" finished-at="2017-09-23T16:21:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5991" started-at="2017-09-23T16:21:29Z" finished-at="2017-09-23T16:21:35Z">
+      <class name="com.webservices.LandLords">
+        <test-method status="PASS" signature="DeletelandLords()[pri:0, instance:com.webservices.LandLords@42d80b78]" name="DeletelandLords" duration-ms="5673" started-at="2017-09-23T11:21:30Z" finished-at="2017-09-23T11:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletelandLords -->
+        <test-method status="PASS" signature="GetlandLords()[pri:0, instance:com.webservices.LandLords@42d80b78]" name="GetlandLords" duration-ms="105" started-at="2017-09-23T11:21:35Z" finished-at="2017-09-23T11:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetlandLords -->
+        <test-method status="PASS" signature="PostlandLords()[pri:0, instance:com.webservices.LandLords@42d80b78]" name="PostlandLords" duration-ms="64" started-at="2017-09-23T11:21:35Z" finished-at="2017-09-23T11:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostlandLords -->
+        <test-method status="PASS" signature="PutlandLords()[pri:0, instance:com.webservices.LandLords@42d80b78]" name="PutlandLords" duration-ms="36" started-at="2017-09-23T11:21:35Z" finished-at="2017-09-23T11:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutlandLords -->
+      </class> <!-- com.webservices.LandLords -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

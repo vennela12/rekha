@@ -1,0 +1,29 @@
+package basics;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Locator1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C://geckodriver.exe");
+		
+		WebDriver driver = new FirefoxDriver();
+		
+		driver.get("http://facebook.com");
+		driver.findElement(By.id("email")).sendKeys("vennela");
+		driver.findElement(By.name("pass")).sendKeys("w3lcom3");
+		//driver.findElement(By.className("inputtext")).sendKeys("deepu");
+		
+		driver.findElement(By.linkText("Forgot account?")).click();
+		driver.findElement(By.xpath(".//*[@id='u_0_r']")).click();
+		
+		
+		/*driver.get("http://guru99.com");
+		//driver.findElement(By.xpath(".//*[@id='g-above']/div/div/div/div/div/div/div[1]/div[2]/div/form/input[2]")).click();
+*/
+	}
+
+}

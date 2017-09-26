@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24881" started-at="2017-09-03T15:46:13Z" finished-at="2017-09-03T15:46:38Z">
+    <groups>
+    </groups>
+    <test name="InheritanceConcept" duration-ms="24881" started-at="2017-09-03T15:46:13Z" finished-at="2017-09-03T15:46:38Z">
+      <class name="testClasses.CreateNewCustomer">
+        <test-method status="PASS" signature="createNewCustomerfromHomePage(java.util.Map)[pri:0, instance:testClasses.CreateNewCustomer@614c5515]" name="createNewCustomerfromHomePage" duration-ms="24855" started-at="2017-09-03T10:46:13Z" data-provider="csvData" finished-at="2017-09-03T10:46:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pincode=342561, amount=5000, address=Millbrook, mobilenumber=3456789234, city=Austin, description=testing, password=bujapub, amount2=10000, amount1=20000, state=Texas, password1=4356200891, customername=Thomas, db=02/12/1987, email=rose10360866558766@gmail.com, payersaccno=32188, username=mngr94017}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCustomerfromHomePage -->
+      </class> <!-- testClasses.CreateNewCustomer -->
+    </test> <!-- InheritanceConcept -->
+  </suite> <!-- Suite -->
+</testng-results>

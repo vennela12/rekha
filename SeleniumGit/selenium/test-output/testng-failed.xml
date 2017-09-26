@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="InheritanceConcept(failed)">
+    <parameter name="startRow" value="1"/>
+    <parameter name="csvFile" value="C:\Users\rekha\selenium\src\test\resources\data.csv"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="endRow" value="1"/>
+    <classes>
+      <class name="testClasses.CreateNewCustomer">
+        <methods>
+          <include name="createNewCustomerfromHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testClasses.CreateNewCustomer -->
+    </classes>
+  </test> <!-- InheritanceConcept(failed) -->
+</suite> <!-- Failed suite [Suite] -->
